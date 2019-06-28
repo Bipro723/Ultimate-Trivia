@@ -1,0 +1,106 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .down{
+      border: 5px solid red;
+      margin-top: 100px;
+      border-radius: 25px;
+  }
+  .container{
+    margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+  }
+  .big{
+      padding: 50px;
+      background-color: white;
+  }
+  .downless{
+    border: 5px solid red;
+    margin-top: 20px;
+   
+  }
+  p{
+      text-align: center;
+      
+  }
+.btn{
+    /* width:100%;
+    display: block; */
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    /* padding-top: .6em;
+    padding-bottom: .6em;  */
+}
+#bold{
+    font-weight: bold;
+    font-size: 2em;
+}
+.btn :active{
+    background-color: yellow;
+}
+
+.link {
+    display:inline-block;
+    width:100%;
+    height:100%;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+
+a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    background-color: red;
+  }
+  #win:active {
+    background-color: lime;
+
+  }
+  body{
+      background-image: url(sports.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  #hi{
+    color: limegreen;
+    text-align: center;
+  }
+  .green{
+    color: limegreen;
+}
+.active1{
+    background-color: #4CAF50;
+    color: white;
+
+}
